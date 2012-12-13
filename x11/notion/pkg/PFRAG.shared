@@ -1,0 +1,12 @@
+@comment $OpenBSD$
+lib/notion/mod/de.so
+lib/notion/mod/mod_dock.so
+lib/notion/mod/mod_menu.so
+lib/notion/mod/mod_query.so
+lib/notion/mod/mod_sm.so
+lib/notion/mod/mod_sp.so
+lib/notion/mod/mod_statusbar.so
+lib/notion/mod/mod_tiling.so
+lib/notion/mod/mod_xinerama.so
+lib/notion/mod/mod_xkbevents.so
+lib/notion/mod/mod_xrandr.so

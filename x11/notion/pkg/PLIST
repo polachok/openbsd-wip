@@ -1,0 +1,113 @@
+@comment $OpenBSD$
+%%SHARED%%
+@bin bin/notion
+@bin bin/pwm3plus
+lib/notion/
+lib/notion/bin/
+@bin lib/notion/bin/ion-completefile
+@bin lib/notion/bin/ion-statusd
+lib/notion/lc/
+lib/notion/lc/de.lc
+lib/notion/lc/ioncore_bindings.lc
+lib/notion/lc/ioncore_efbb.lc
+lib/notion/lc/ioncore_ext.lc
+lib/notion/lc/ioncore_luaext.lc
+lib/notion/lc/ioncore_menudb.lc
+lib/notion/lc/ioncore_misc.lc
+lib/notion/lc/ioncore_quasiact.lc
+lib/notion/lc/ioncore_tabnum.lc
+lib/notion/lc/ioncore_wd.lc
+lib/notion/lc/ioncore_winprops.lc
+lib/notion/lc/mod_dock.lc
+lib/notion/lc/mod_menu.lc
+lib/notion/lc/mod_query.lc
+lib/notion/lc/mod_query_chdir.lc
+lib/notion/lc/mod_sm.lc
+lib/notion/lc/mod_sp.lc
+lib/notion/lc/mod_statusbar.lc
+lib/notion/lc/mod_tiling.lc
+lib/notion/lc/mod_xinerama.lc
+lib/notion/lc/mod_xkbevents.lc
+lib/notion/lc/mod_xrandr.lc
+lib/notion/lc/statusd_date.lc
+lib/notion/lc/statusd_load.lc
+lib/notion/lc/statusd_mail.lc
+lib/notion/mod/
+share/doc/notion/
+share/doc/notion/ChangeLog
+share/doc/notion/LICENSE
+share/doc/notion/README
+share/doc/notion/RELNOTES
+share/examples/notion/
+share/examples/notion/cfg_defaults.lua
+@sample ${SYSCONFDIR}/notion/cfg_defaults.lua
+share/examples/notion/cfg_dock.lua
+@sample ${SYSCONFDIR}/notion/cfg_dock.lua
+share/examples/notion/cfg_kludges.lua
+@sample ${SYSCONFDIR}/notion/cfg_kludges.lua
+share/examples/notion/cfg_layouts.lua
+@sample ${SYSCONFDIR}/notion/cfg_layouts.lua
+share/examples/notion/cfg_menu.lua
+@sample ${SYSCONFDIR}/notion/cfg_menu.lua
+share/examples/notion/cfg_notion.lua
+@sample ${SYSCONFDIR}/notion/cfg_notion.lua
+share/examples/notion/cfg_notioncore.lua
+@sample ${SYSCONFDIR}/notion/cfg_notioncore.lua
+share/examples/notion/cfg_pwm.lua
+@sample ${SYSCONFDIR}/notion/cfg_pwm.lua
+share/examples/notion/cfg_query.lua
+@sample ${SYSCONFDIR}/notion/cfg_query.lua
+share/examples/notion/cfg_sp.lua
+@sample ${SYSCONFDIR}/notion/cfg_sp.lua
+share/examples/notion/cfg_statusbar.lua
+@sample ${SYSCONFDIR}/notion/cfg_statusbar.lua
+share/examples/notion/cfg_tiling.lua
+@sample ${SYSCONFDIR}/notion/cfg_tiling.lua
+share/examples/notion/look.lua
+@sample ${SYSCONFDIR}/notion/look.lua
+share/examples/notion/look_brownsteel.lua
+@sample ${SYSCONFDIR}/notion/look_brownsteel.lua
+share/examples/notion/look_clean.lua
+@sample ${SYSCONFDIR}/notion/look_clean.lua
+share/examples/notion/look_cleanios.lua
+@sample ${SYSCONFDIR}/notion/look_cleanios.lua
+share/examples/notion/look_cleanviolet.lua
+@sample ${SYSCONFDIR}/notion/look_cleanviolet.lua
+share/examples/notion/look_dusky.lua
+@sample ${SYSCONFDIR}/notion/look_dusky.lua
+share/examples/notion/look_greenlight.lua
+@sample ${SYSCONFDIR}/notion/look_greenlight.lua
+share/examples/notion/look_greyviolet.lua
+@sample ${SYSCONFDIR}/notion/look_greyviolet.lua
+share/examples/notion/look_ios.lua
+@sample ${SYSCONFDIR}/notion/look_ios.lua
+share/examples/notion/look_newviolet.lua
+@sample ${SYSCONFDIR}/notion/look_newviolet.lua
+share/examples/notion/look_simpleblue.lua
+@sample ${SYSCONFDIR}/notion/look_simpleblue.lua
+share/examples/notion/lookcommon_clean.lua
+@sample ${SYSCONFDIR}/notion/lookcommon_clean.lua
+share/examples/notion/lookcommon_emboss.lua
+@sample ${SYSCONFDIR}/notion/lookcommon_emboss.lua
+share/locale/cs/LC_MESSAGES/notion.mo
+share/locale/de/LC_MESSAGES/notion.mo
+share/locale/fi/LC_MESSAGES/notion.mo
+share/locale/fr/LC_MESSAGES/notion.mo
+share/man/
+share/man/cs/
+share/man/cs/man1/
+@man share/man/cs/man1/notion.1
+@man share/man/cs/man1/pwm3.1
+share/man/fi/
+share/man/fi/man1/
+@man share/man/fi/man1/notion.1
+@man share/man/fi/man1/pwm3.1
+share/man/man1/
+@man share/man/man1/notion.1
+@man share/man/man1/pwm3.1
+share/notion/
+share/notion/ion-completeman
+share/notion/ion-runinxterm
+share/notion/welcome.cs.txt
+share/notion/welcome.fi.txt
+share/notion/welcome.txt

@@ -1,0 +1,15 @@
+$OpenBSD$
+--- libmainloop/select.c.orig	Thu Dec 13 21:07:01 2012
++++ libmainloop/select.c	Thu Dec 13 21:07:13 2012
+@@ -101,9 +101,8 @@ void mainloop_select()
+     fd_set rfds;
+     int nfds=0;
+     int ret=0;
+-    
+-    
+-#if _POSIX_SELECT || _POSIX_C_SOURCE >= 200112L || _XOPEN_SOURCE >= 600
++
++#if !defined(__OpenBSD__) && (_POSIX_SELECT || _POSIX_C_SOURCE >= 200112L || _XOPEN_SOURCE >= 600)
+     {
+         sigset_t oldmask;
+ 
