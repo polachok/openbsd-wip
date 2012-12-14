@@ -33,12 +33,23 @@ lib/notion/lc/statusd_date.lc
 lib/notion/lc/statusd_load.lc
 lib/notion/lc/statusd_mail.lc
 lib/notion/mod/
+man/cs/
+man/cs/man1/
+@man man/cs/man1/notion.1
+@man man/cs/man1/pwm3.1
+man/fi/
+man/fi/man1/
+@man man/fi/man1/notion.1
+@man man/fi/man1/pwm3.1
+@man man/man1/notion.1
+@man man/man1/pwm3.1
 share/doc/notion/
 share/doc/notion/ChangeLog
 share/doc/notion/LICENSE
 share/doc/notion/README
 share/doc/notion/RELNOTES
 share/examples/notion/
+@sample ${SYSCONFDIR}/notion/
 share/examples/notion/cfg_defaults.lua
 @sample ${SYSCONFDIR}/notion/cfg_defaults.lua
 share/examples/notion/cfg_dock.lua
@@ -93,18 +104,6 @@ share/locale/cs/LC_MESSAGES/notion.mo
 share/locale/de/LC_MESSAGES/notion.mo
 share/locale/fi/LC_MESSAGES/notion.mo
 share/locale/fr/LC_MESSAGES/notion.mo
-share/man/
-share/man/cs/
-share/man/cs/man1/
-@man share/man/cs/man1/notion.1
-@man share/man/cs/man1/pwm3.1
-share/man/fi/
-share/man/fi/man1/
-@man share/man/fi/man1/notion.1
-@man share/man/fi/man1/pwm3.1
-share/man/man1/
-@man share/man/man1/notion.1
-@man share/man/man1/pwm3.1
 share/notion/
 share/notion/ion-completeman
 share/notion/ion-runinxterm

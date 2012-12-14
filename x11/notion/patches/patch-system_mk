@@ -1,7 +1,7 @@
 $OpenBSD$
 --- system.mk.orig	Mon Apr 23 20:41:31 2012
-+++ system.mk	Thu Dec 13 21:43:58 2012
-@@ -16,7 +16,7 @@ PREFIX=/usr/local
++++ system.mk	Fri Dec 14 16:36:34 2012
+@@ -16,11 +16,11 @@ PREFIX=/usr/local
  # Main binaries
  BINDIR=$(PREFIX)/bin
  # Configuration .lua files
@@ -10,6 +10,11 @@ $OpenBSD$
  # Some .lua files and ion-* shell scripts
  SHAREDIR=$(PREFIX)/share/notion
  # Manual pages
+-MANDIR=$(PREFIX)/share/man
++MANDIR=$(PREFIX)/man
+ # Some documents
+ DOCDIR=$(PREFIX)/share/doc/notion
+ # Nothing at the moment
 @@ -53,7 +53,7 @@ LOCALEDIR=$(PREFIX)/share/locale
  
  # Flags to link with libdl. Even if PRELOAD_MODULES=1, you may need this
